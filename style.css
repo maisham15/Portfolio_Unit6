@@ -1,19 +1,23 @@
     header {
       text-align: center;
-      background: url("images/banner.jpg");
+      background: url("Maisha.jpg");
       background-size: cover;
-      color: white;
+      color: White;
     }
     .nav {
-      color: white;
+      color:pink;
     }
     h1 {
       font-size: 70px;
     }
+    #title2 {
+      padding:10px;
+      background: rgba(0,0,0,0.5);
+    }
     img {
       margin: 40px 0px 0px 0px;
       border: 7px solid white;
-      border-radius: 20px;
+      border-radius: 30px;
     }
     ul {
       padding: 10px;
@@ -27,6 +31,9 @@
       max-width: 500px;
       padding: 20px;
       margin: 0 auto;
+    }
+    .project-title{
+      color:red;
     }
     @media (max-width: 500px) {
       h1 {
